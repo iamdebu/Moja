@@ -1,0 +1,79 @@
+
+.controls {
+        margin-top: 1.5vh;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 4.3vh;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.mapStyle{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden
+}
+
+#mapSearchBox {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 1.6vh;
+        border-radius: .3vh;
+        padding: 0 1vh 0 1.1vh;
+        text-overflow: ellipsis;
+        width: 30vw;
+}
+
+.route{
+    width: 26vw;
+    height: 100vh;
+    background:transparent;
+    display: flex;
+    align-content:flex-end;
+    flex-direction: column;
+    overflow:scroll;
+}
+
+.mapContainer{
+    width: 100vw;
+    display: flex;
+}
+.location{
+    width:100%;
+    height:6vh;
+    margin: 0.5vh;
+    border-radius: 1vh;
+    background-color:transparent;
+    z-index: 6;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.locationName{
+    width:80%;
+    height:5vh;
+    padding: 0.5vh;
+    border-radius: 1vh 0 0 1vh;
+    background-color:#ccccff;
+    z-index: 6;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.delete{
+    width:10%;
+    height:5vh;
+    padding: 0.5vh;
+    border-radius: 0 1vh 1vh 0;
+    background-color:red;
+    z-index: 6;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    cursor: pointer;
+}

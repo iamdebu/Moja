@@ -1,0 +1,4 @@
+var mapData={
+	"mapID":'',
+	mapLocations:[]
+}

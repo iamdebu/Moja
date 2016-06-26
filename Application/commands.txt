@@ -1,0 +1,3 @@
+Babel watch
+	-->babel --presets react --watch ./Components --out-dir ./Build
+	-->This will transpile whole Components directory and output it to Build directory
